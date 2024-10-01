@@ -1,0 +1,6 @@
+# cook your dish here  - PYTHON
+a, b, c, x = map(int, input().split())
+if x not in [a, b, c]:
+    print("No")
+else:
+    print("Yes")
