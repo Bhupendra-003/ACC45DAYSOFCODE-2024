@@ -1,0 +1,10 @@
+// Water Filling - Python
+
+t = int(input())
+for i in range(t):
+    li = []
+    li = list(map(int, input().split()))
+    if li.count(1) >= 2:
+        print("Not now")
+    else:
+        print("Water filling time")
